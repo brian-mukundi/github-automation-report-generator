@@ -41,6 +41,8 @@ This makes it suitable for real-world automation workflows.
 
 📁 Project Structure
 
+```
+
 github-automation-report-generator/
 │
 ├── main.py
@@ -51,6 +53,7 @@ github-automation-report-generator/
 ├── .env.example
 ├── requirements.txt
 └── README.md
+```
 
 ---
 
@@ -108,6 +111,8 @@ python main.py --username octocat --send
 
 📊 Example Output
 
+```
+
 GitHub Weekly Report
 
 Username: octocat
@@ -117,6 +122,7 @@ Public Repositories: 8
 Account Age: 5000 days
 
 Strong project activity detected.
+```
 
 ---
 
