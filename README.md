@@ -1,12 +1,12 @@
-GitHub Automation Report Generator
+🚀 GitHub Automation Report Generator
 
-A Python automation tool that fetches GitHub user data using the GitHub API, generates a structured report, and sends the report via email using the SendGrid API.
+A Python automation tool that fetches GitHub user data using the GitHub API, generates a structured performance report, and sends the report via email using the SendGrid API.
 
-This project demonstrates real-world backend automation including API integration, CLI tooling, environment configuration, and external scheduling.
+This project demonstrates real-world backend automation including API integration, CLI tooling, secure environment configuration, and external scheduling.
 
 ---
 
-Overview
+📌 Overview
 
 This system automatically generates GitHub performance reports for a user and delivers them via email.
 
@@ -16,19 +16,19 @@ This makes it suitable for real-world automation workflows.
 
 ---
 
-Features
+✨ Features
 
-• Fetches GitHub user data using the GitHub API
-• Generates structured GitHub performance reports
-• Sends reports via email using SendGrid API
-• Command Line Interface (CLI) support
-• Environment variable configuration for security
-• Designed for external automation scheduling
-• Modular Python architecture
+✅ Fetches GitHub user data using the GitHub API
+✅ Generates structured GitHub performance reports
+✅ Sends reports via email using SendGrid API
+✅ Command Line Interface (CLI) support
+✅ Environment variable configuration for security
+✅ Designed for external automation scheduling
+✅ Modular Python architecture
 
 ---
 
-Technologies Used
+🧰 Technologies Used
 
 - Python 3
 - Requests Library
@@ -39,7 +39,7 @@ Technologies Used
 
 ---
 
-Project Structure
+📁 Project Structure
 
 github-automation-report-generator/
 │
@@ -54,7 +54,7 @@ github-automation-report-generator/
 
 ---
 
-Installation
+⚙️ Installation
 
 Clone the repository:
 
@@ -70,9 +70,9 @@ pip install -r requirements.txt
 
 ---
 
-Configuration Setup
+🔐 Configuration Setup
 
-This project uses environment variables to store sensitive credentials.
+This project uses environment variables to store sensitive credentials securely.
 
 Create a ".env" file in the project root.
 
@@ -84,7 +84,7 @@ SENDGRID_API_KEY=your_sendgrid_api_key
 FROM_EMAIL=your_email@example.com
 TO_EMAIL=recipient_email@example.com
 
-Important:
+⚠️ Important
 
 Replace all placeholder values with your own credentials.
 
@@ -92,9 +92,9 @@ Never commit your real ".env" file to GitHub.
 
 ---
 
-CLI Usage
+💻 CLI Usage
 
-The system includes a command-line interface.
+The system includes a command-line interface (CLI).
 
 Example usage:
 
@@ -106,7 +106,7 @@ python main.py --username octocat --send
 
 ---
 
-Example Output
+📊 Example Output
 
 GitHub Weekly Report
 
@@ -120,30 +120,31 @@ Strong project activity detected.
 
 ---
 
-Automating the Script
+🤖 Automating the Script
 
 The project does not use a Python scheduling library.
 
 Instead, it is designed to be scheduled externally.
 
-Example automation tools:
+Examples of automation tools:
 
 • Windows Task Scheduler
 • Cron Jobs (Linux / macOS)
 
 ---
 
-Windows Task Scheduler Example
+🪟 Windows Task Scheduler Example
 
 1. Open Task Scheduler
 2. Click Create Basic Task
 3. Set trigger to Weekly
 4. Choose Start a Program
-5. Program/script:
+
+Program/script:
 
 python
 
-6. Add arguments:
+Add arguments:
 
 path\to\main.py --username octocat --send
 
@@ -151,7 +152,7 @@ Now the report will run automatically on schedule.
 
 ---
 
-Future Improvements
+ Future Improvements
 
 Possible upgrades:
 
@@ -162,4 +163,4 @@ Possible upgrades:
 • Docker container support
 • Web dashboard interface
 
-# github-automation-report-generator
+---
